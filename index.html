@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<title>-Portfolio Website-</title>
+	</head>
+	<body background="images/blue.jpg" style="background-size:100% 100%">
+
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Silkscreen&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
+
+		<style>
+
+			header{
+			 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) background="images/blue.jpg";
+			 height :100vh;
+			background-size: cover;
+			background-position: center;
+			}
+
+			nav{
+				background: #0504;
+				width: 50%;
+				margin: auto;
+				height: 60px;
+				border-radius: 50px;
+			}
+
+			nav ul li{
+				display: inline-block;
+				margin: 0 13px;
+				line-height: 50px;
+			}
+
+			nav ul li a{
+				color: white;
+				font-size: 17px;
+				text-transform: uppercase;
+				padding: 7px;
+				font-family: 'Montserrat', sans-serif;
+			}
+
+			nav img{
+				height: 60px;
+				width: 70px;
+				float: right;
+				border-radius: 50px;
+			}
+
+			nav img:hover .profile{
+				left: 100%;
+			}
+
+			ul{
+			float: left;
+			list-style-type: none;
+			margin-top: 7px;
+			}
+
+			ul li{
+			display: inline-block;
+			}
+
+			ul li a{
+			text-decoration: none;
+			color: #000;
+			padding: 5px 20px;
+			border: 1px solid transparent;
+			transition: 0.5s ease;
+			}
+
+			ul li a:hover{
+			background-color: #000;
+			color: #fff;
+			border-radius: 15px;
+			}
+
+			ul li.active a{
+			background-color: #000;
+			color: #fff;
+			border-radius: 15px;
+			}
+
+			.main{
+			max-width: 1200px;
+			margin: auto;
+			}
+
+			.title{
+			position: absolute;
+			top: 47%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			}
+
+			.title h1{
+				color: #fff;
+				font-size: 70px;
+				font-family: 'Silkscreen', cursive;
+			}
+
+			.title h1:hover {
+				background-color: #0405;
+				color: #fff;
+				padding: 10px;
+				border-radius: 50px;
+			}
+
+
+			main{
+             min-height: calc(100vh - 1000px - 41px);
+            }
+
+            footer{
+                position: absolute;
+                bottom: 0;
+            }
+
+            .footer-bottom{
+                background: #0504;
+                width: 97.5vw;
+                padding: 1px 0;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .footer-bottom p{
+                font-size: 12px;
+                word-spacing: 2px;
+                text-transform: capitalize;
+            }
+
+            .footer-bottom span{
+                text-transform: uppercase;
+                opacity: .7;
+                font-weight: 200;
+                color: #000;
+            }
+
+		</style>
+		<header>
+			<div class="main">
+				<nav>
+					<img src="images/profile.jpg" class="profile">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="contact.html"> Contact</a></li>
+						<li><a href="hireme.html">Hire Me</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+			<div class="title">
+					<h1><center>Pujan's<br>Portfolio</center></h1></div>
+		<main></main>
+		<footer>
+        <div class="footer-bottom">
+            <p>coypright &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> pujanjoci. designed by <span>Pujan Joshi</span></p>
+        </div>
+    </footer>
+	</body>
+</html>

@@ -1,0 +1,274 @@
+/* Reset and Global Styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+}
+
+/* Header styles */
+header {
+	background-color: #028f0936;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	position: relative;
+	border-radius: 10px;
+	/* Position relative for absolute positioning of profile image */
+}
+
+/* Navigation styles */
+nav {
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin: 0 15px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	/* Dark color for better readability */
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Rubik Doodle Shadow', sans-serif;
+	/* Change font family */
+	transition: color 0.3s;
+	/* Smooth color transition on hover */
+}
+
+nav a:hover {
+	color: #ffcc00;
+	/* Change color on hover */
+}
+
+/* Profile image styles */
+.profile-image {
+	position: absolute;
+	top: 50%;
+	right: 1px;
+	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+/* Title section styles */
+#title {
+	background: url('images/blue.jpg') center/cover no-repeat;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.title-container span {
+	font-size: 48px;
+	font-weight: bold;
+	position: relative;
+	transform: translate(-50%, -50%);
+	letter-spacing: 2px;
+	line-height: 1.2;
+	font-family: 'Rubik Scribble', sans-serif;
+	transition: color 0.3s;
+}
+
+.title-container span:hover {
+	color: #4d4d4c;
+}
+
+
+/* Main container styles */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/* About Me section styles */
+#about {
+	background-color: #f4f4f4;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.about-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.about-container h2 {
+	font-family: 'Playfair Display', serif;
+	margin: 0 0 20px;
+	text-align: center;
+}
+
+.about-content {
+	display: flex;
+	justify-content: center;
+	/* Center the content horizontally */
+	align-items: flex-start;
+	/* Align items to the top */
+	flex-wrap: wrap;
+	/* Allow the items to wrap to the next line if needed */
+}
+
+.about-photo {
+	max-width: 20%;
+	margin-top: 7%;
+	margin-right: 5%;
+	/* Add some space between the photo and text */
+}
+
+.about-image {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.about-text {
+	max-width: 60%;
+	text-align: left;
+	/* Align text to the left */
+	font-family: 'Titillium Web', sans-serif;
+	/* Change font family */
+}
+
+/* Additional styling for about-text if needed */
+.about-text p {
+	margin-bottom: 15px;
+	/* Add some spacing between paragraphs */
+}
+
+
+/* Title container styles */
+.project-title-container {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.project-title-container h2 {
+	font-family: 'Jost', sans-serif;
+}
+
+/* Projects section styles */
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 2%;
+	padding-right: 4%;
+	padding-bottom: 2%;
+	padding-left: 8%;
+}
+
+
+.project {
+	position: relative;
+	margin: 20px;
+	width: 245px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.thumbnail-image {
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 0 auto;
+}
+
+.project-details {
+	position: relative;
+	top: 10%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+.project-details h3 {
+	font-size: 1.5em;
+	color: #333;
+	font-family: 'Teko', sans-serif;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.project-details a,
+.project-details a:visited,
+.project-details a:hover,
+.project-details a:active {
+	text-decoration: none !important;
+	color: inherit;
+	cursor: pointer;
+}
+
+/*No Projects*/
+
+/* Add this CSS code to your existing styles.css or in the head of your HTML document */
+#no-projects-message {
+	align-items: center;
+	font-style: italic;
+}
+
+/* Resume section styles */
+#resume {
+	background-color: #f4f4f4;
+	padding: 40px 0;
+}
+
+/* Contact section styles (customize as needed) */
+#contact {
+	background-color: #fff;
+	padding: 40px 0;
+}
+
+/* Responsive styles (customize as needed) */
+@media (max-width: 768px) {
+
+	.container,
+	.title-container {
+		padding: 15px;
+	}
+}

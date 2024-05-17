@@ -1,0 +1,293 @@
+/* General Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Header Styles */
+
+header {
+	height: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	background: #0504;
+	width: 47%;
+	margin: auto;
+	height: 60px;
+	border-radius: 50px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 13px;
+	line-height: 50px;
+}
+
+nav ul li a {
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav img {
+	height: 60px;
+	width: 70px;
+	float: right;
+	border-radius: 50px;
+}
+
+nav img:hover .profile {
+	left: 100%;
+}
+
+ul {
+	float: left;
+	list-style-type: none;
+	margin-top: 7px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover {
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+}
+
+ul li.active a {
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+}
+
+/* Hide sections by default */
+section {
+	display: none;
+}
+
+/* Show active section */
+section:not(.hidden) {
+	display: block;
+}
+
+/* Additional styling for the active link */
+nav ul li a.active {
+	font-weight: bold;
+}
+/* Home Section Styles */
+
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title title-home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title title-home h1 {
+	color: #fff;
+	font-size: 70px;
+	font-family: 'Silkscreen', cursive;
+}
+
+.title title-home h1:hover {
+	background-color: #0405;
+	color: #fff;
+	padding: 10px;
+	border-radius: 50px;
+}
+
+main {
+	min-height: calc(100vh - 1000px - 41px);
+}
+
+/* About Section Styles */
+
+.title title-about.portfolio_about {
+	top: 22%;
+}
+
+.title title-about.portfolio_about h1 {
+	color: gray;
+	font-size: 60px;
+	font-family: 'Yatra One', cursive;
+}
+
+.dis.about {
+	top: 30%;
+	left: 55%;
+	font-family: 'Rock Salt', cursive;
+}
+
+.img.about {
+	top: 32%;
+	left: 15%;
+}
+
+main.about {
+	min-height: calc(100vh - 1000px - 41px);
+}
+
+/* Contact Section Styles */
+
+.talk {
+	top: 18%;
+}
+
+.para {
+	top: 34%;
+}
+
+.email {
+	top: 48%;
+}
+
+.mail {
+	top: 55%;
+}
+
+.soc {
+	top: 65%;
+}
+
+.socials {
+	padding: 1px;
+}
+
+.form {
+	top: 25%;
+	right: 7%;
+	width: 35%;
+}
+
+.form h2 {
+	left: 33%;
+}
+
+main.contact {
+	min-height: calc(100vh - 1000px - 41px);
+}
+
+/* Hire Me Section Styles */
+
+.eat {
+	left: 53%;
+	top: 74%;
+}
+
+.eat h1 {
+	font-size: 40px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+
+span {
+	color: dimgrey;
+}
+
+span:hover {
+	color: darksalmon;
+}
+
+.eat p {
+	color: #212121;
+	font-size: 20px;
+	line-height: 22px;
+	margin: 10px 10px;
+}
+
+.eat a {
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 10px 10px;
+	border-radius: 5px;
+}
+
+.hire {
+	top: 10%;
+	left: 54%;
+}
+
+.dec {
+	top: 30%;
+	left: 54%;
+}
+
+img.photo {
+	left: 35%;
+	top: 50%;
+}
+
+.cos {
+	top: 27%;
+	left: 54%;
+}
+
+main.hireme {
+	min-height: calc(100vh - 1000px - 41px);
+}
+
+/* Footer Styles */
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-bottom {
+	background: #0504;
+	width: 97.5vw;
+	padding: 1px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer-bottom p {
+	font-size: 12px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.footer-bottom span {
+	text-transform: uppercase;
+	opacity: .7;
+	font-weight: 200;
+	color: #000;
+}
+/* Additional Styling Goes Here */
